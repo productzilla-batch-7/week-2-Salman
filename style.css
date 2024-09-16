@@ -1,0 +1,38 @@
+h1{
+    position: relative;
+    animation: move-text 8s linear infinite;
+    animation-play-state:running ;
+}
+h1:hover{
+    animation-play-state: paused;
+}
+div {   
+    border-bottom: 20px solid red;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+@keyframes move-text{
+    0%{
+        right: -150%;
+    }
+    100%{
+        right: 100%;
+    }
+}
+
+h2{
+    position: relative;
+    animation: move-tex 1s linear infinite;
+}
+
+@keyframes move-tex{
+    0%{
+        left: -100%;
+    }
+    100%{
+        left: 100%;
+    }
+}
+
