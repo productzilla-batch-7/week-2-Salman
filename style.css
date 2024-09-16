@@ -6,12 +6,52 @@ h1{
 h1:hover{
     animation-play-state: paused;
 }
-div {   
-    border-bottom: 20px solid red;
+.heading{   
+    border-bottom: 20px solid rgb(48, 109, 89);
     width: 100%;
     overflow: hidden;
 }
 
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    border: 2px solid black;
+    width: 30%;
+    margin: auto; 
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    background-color: blanchedalmond;
+    box-shadow: 4px 4px 10px rgba(156, 145, 145, 0.5);
+}
+
+.info-container{
+    display: flex;
+    align-items: center;
+}
+.info-container table{
+    margin-right: 100px;
+}
+
+.info-image{
+    width: 150px;
+    height: 150px;
+}
+
+body{
+    background-color: #003366;
+    height: 100vh;
+}
 
 @keyframes move-text{
     0%{
@@ -21,7 +61,45 @@ div {
         right: 100%;
     }
 }
-
+.card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+.card h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+.form-group button:hover {
+    background-color: #0056b3;
+}
+/* 
 h2{
     position: relative;
     animation: move-tex 1s linear infinite;
@@ -34,5 +112,5 @@ h2{
     100%{
         left: 100%;
     }
-}
+} */
 
